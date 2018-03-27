@@ -14,7 +14,7 @@ import NotFound from '../routes/Exception/404';
 import { getRoutes } from '../utils/utils';
 import Authorized from '../utils/Authorized';
 import { getMenuData } from '../common/menu';
-import logo from '../assets/lanting.svg';
+import logo from '../assets/jingangjin.jpeg';
 
 const { Content } = Layout;
 const { AuthorizedRoute } = Authorized;
@@ -92,9 +92,9 @@ class BasicLayout extends React.PureComponent {
   getPageTitle() {
     const { routerData, location } = this.props;
     const { pathname } = location;
-    let title = '兰亭 · 映客';
+    let title = '金刚经说什么';
     if (routerData[pathname] && routerData[pathname].name) {
-      title = `${routerData[pathname].name} - 兰亭 · 映客`;
+      title = `${routerData[pathname].name} - 金刚经说什么`;
     }
     return title;
   }

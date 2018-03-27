@@ -221,7 +221,7 @@ export default class SiderMenu extends PureComponent {
         <div className={styles.logo} key="logo">
           <Link to="/">
             <img src={logo} alt="logo" />
-            <h1>蘭亭 · 映客</h1>
+            <h1>金刚经说什么</h1>
           </Link>
         </div>
         <Menu

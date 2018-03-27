@@ -1,7 +1,7 @@
 import { isUrl } from '../utils/utils';
 
 const menuData = [{
-  name: '酒店概况',
+  name: '如是我闻',
   icon: 'iconfont icon-hotel',
   path: 'hotel',
   children: [{
@@ -26,7 +26,7 @@ const menuData = [{
     path: 'contact',
   }],
 }, {
-  name: '客房管理',
+  name: '如是我闻',
   icon: 'form',
   path: 'form',
   children: [{
@@ -37,7 +37,7 @@ const menuData = [{
     path: 'step-form',
   }],
 }, {
-  name: '会议宴会',
+  name: '如是我闻',
   icon: 'table',
   path: 'list',
   children: [{
@@ -48,11 +48,11 @@ const menuData = [{
     path: 'basic-list',
   }],
 }, {
-  name: '休闲娱乐',
+  name: '如是我闻',
   icon: 'profile',
   path: 'profile',
 }, {
-  name: '餐饮美食',
+  name: '如是我闻',
   icon: 'check-circle-o',
   path: 'result',
   children: [{
@@ -63,7 +63,7 @@ const menuData = [{
     path: 'fail',
   }],
 }, {
-  name: '城市指南',
+  name: '如是我闻',
   icon: 'warning',
   path: 'exception',
   children: [{
@@ -85,16 +85,16 @@ const menuData = [{
     hideInMenu: true,
   }],
 }, {
-  name: '图片轮播',
+  name: '如是我闻',
   icon: 'user',
   path: 'user',
   authority: 'guest',
 }, {
-  name: '搜索优化',
+  name: '如是我闻',
   icon: 'warning',
   path: 'exception',
 }, {
-  name: '系统设置',
+  name: '如是我闻',
   icon: 'warning',
   path: 'exception',
   children: [{

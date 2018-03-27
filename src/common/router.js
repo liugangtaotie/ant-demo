@@ -75,19 +75,19 @@ export const getRouterData = (app) => {
     },
     '/hotel/general': {
       component: dynamicWrapper(app, ['profile'], () => import('../routes/CMS/Hotel/General')),
-      name: '酒店简介',
+      name: '如是我闻',
     },
     '/hotel/address': {
       component: dynamicWrapper(app, ['profile'], () => import('../routes/CMS/Hotel/Address')),
-      name: '交通指引',
+      name: '如是我闻',
     },
     '/hotel/jobs': {
       component: dynamicWrapper(app, ['profile'], () => import('../routes/CMS/Hotel/Address')),
-      name: '招聘信息',
+      name: '如是我闻',
     },
     '/hotel/links': {
       component: dynamicWrapper(app, ['profile'], () => import('../routes/CMS/Hotel/Links')),
-      name: '友情链接',
+      name: '如是我闻',
     },
     // ant design pro
     '/dashboard/analysis': {

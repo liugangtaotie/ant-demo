@@ -4,7 +4,7 @@ import DocumentTitle from 'react-document-title';
 import { Icon } from 'antd';
 import GlobalFooter from '../components/GlobalFooter';
 import styles from './UserLayout.less';
-import logo from '../assets/lanting.svg';
+import logo from '../assets/jingangjin.jpeg';
 import { getRoutes } from '../utils/utils';
 
 const links = [{
@@ -27,9 +27,9 @@ class UserLayout extends React.PureComponent {
   getPageTitle() {
     const { routerData, location } = this.props;
     const { pathname } = location;
-    let title = '兰亭 · 映客';
+    let title = '金刚经说什么';
     if (routerData[pathname] && routerData[pathname].name) {
-      title = `${routerData[pathname].name} - 兰亭 · 映客`;
+      title = `${routerData[pathname].name} - 金刚经说什么`;
     }
     return title;
   }
@@ -43,7 +43,7 @@ class UserLayout extends React.PureComponent {
               <div className={styles.header}>
                 <Link to="/">
                   <img alt="logo" className={styles.logo} src={logo} />
-                  <span className={styles.title}>兰亭 · 映客</span>
+                  <span className={styles.title}>金刚经说什么</span>
                 </Link>
               </div>
               <div className={styles.desc}>Ant Design 是西湖区最具影响力的 Web 设计规范</div>
